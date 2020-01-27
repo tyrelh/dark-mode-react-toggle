@@ -1,0 +1,32 @@
+.toggle-container {
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  line-height: 66px;
+  top: 16px;
+  right: 21px;
+  position: fixed;
+  z-index: 3;
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgba(#fff, 0.9);
+
+  .toggle-icon {
+    width: 1em;
+    height: 1em;
+
+    .sun-icon {
+      fill: #ddd;
+    }
+
+    .moon-icon {
+      fill: #333;
+    }
+  }
+}
+
+.dark-mode {
+  .toggle-container {
+    background-color: rgba(#333, 0.9);
+  }
+}
